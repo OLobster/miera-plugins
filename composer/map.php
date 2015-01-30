@@ -240,22 +240,6 @@ vc_map( array(
       'param_name'  => 'content',
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display blog shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -283,22 +267,6 @@ vc_map( array(
       'description' => 'Upload your images.'
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display intro text shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -326,22 +294,6 @@ vc_map( array(
       'description' => 'This is optional field',
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display intro text shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -363,22 +315,6 @@ vc_map( array(
       'value'       => 'Default title',
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display intro text shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -401,22 +337,6 @@ vc_map( array(
       'value'       => 'Default content',
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display intro text shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -444,22 +364,6 @@ vc_map( array(
       'value'       => '#',
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display intro text shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -494,22 +398,6 @@ vc_map( array(
       'param_name'  => 'description',
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display intro text shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -532,22 +420,6 @@ vc_map( array(
       'value'       => 'Default blockqoute',
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display intro text shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -623,22 +495,6 @@ vc_map( array(
         ),
       ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display portfolio shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -696,22 +552,6 @@ vc_map( array(
       'value'       => '#search',
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display intro text shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
@@ -769,24 +609,8 @@ vc_map( array(
           'param_name'  => 'icon',
           'value'       => 'fa-bicycle',
           'description' => 'Type full name of Font Awesome icon. You can find icon on <a href="http://fontawesome.io/icons/">FontAwesome</a>'
-    ),
-        $animation_params,
-        array(
-          'type'        => 'vc_efa_chosen',
-          'heading'     => 'Select Page',
-          'param_name'  => 'page_name',
-          'placeholder' => 'Select Page',
-          'admin_label' => true,
-          'value'       => miera_element_values( 'post', array(
-            'sort_order'  => 'ASC',
-            'post_type'   => 'page',
-            'hide_empty'  => false,
-            'posts_per_page' => -1
-          ) ),
-          'std'         => '',
-          'description' => 'Select pages you want to display intro text shortcode on.',
-          'group'       => 'Shortcode Display'
         ),
+        $animation_params,
     )
 ) );
 
@@ -886,22 +710,6 @@ vc_map( array(
       'description' => 'For example, "K" or "+"',
     ),
     $animation_params,
-    array(
-      'type'        => 'vc_efa_chosen',
-      'heading'     => 'Select Page',
-      'param_name'  => 'page_name',
-      'placeholder' => 'Select Page',
-      'admin_label' => true,
-      'value'       => miera_element_values( 'post', array(
-        'sort_order'  => 'ASC',
-        'post_type'   => 'page',
-        'hide_empty'  => false,
-        'posts_per_page' => -1
-      ) ),
-      'std'         => '',
-      'description' => 'Select pages you want to display intro text shortcode on.',
-      'group'       => 'Shortcode Display'
-    ),
   )
 
 ) );
