@@ -1,0 +1,25 @@
+<?php
+  $output .= '<!-- INTRO -->' . "\n";
+  $output .= '<div class="rs-introduction" id="intro">' . "\n";
+  $output .= '<section id="supersized">' . "\n";
+  $output .= '<div class="intro-inner">' . "\n";
+  $output .= '<div id="top-slider" class="owl-carousel owl-theme">' . "\n";
+  $output .= '<div class="item">' . "\n";
+  $output .= '<h3>We do Amazing Work</h3>' . "\n";
+  $output .= '</div>' . "\n";
+  $output .= '<div class="item">' . "\n";
+  $output .= '<h3>We are the Creatives</h3>' . "\n";
+  $output .= '</div>' . "\n";
+  $output .= '<div class="item">' . "\n";
+  $output .= '<h3>We make websites talk</h3>' . "\n";
+  $output .= '</div>' . "\n";
+  $output .= '</div>' . "\n";
+  $output .= '' . "\n";
+  $output .= '<div class="container">' . "\n";
+  $output .= '<h5>Donec dapibus tempus ligula vitae imperdietn hac habitasse platea dictumst sed dictum nisl</h5>' . "\n";
+  $output .= '</div>' . "\n";
+  $output .= '</div>' . "\n";
+  $output .= '<a class="arrow-down fa fa-angle-down page-scroll" href="#together" data-scroll=""></a>' . "\n";
+  $output .= '</section>' . "\n";
+  $output .= '</div>' . "\n";
+  $output .= '<!-- INTRO -->' . "\n";
